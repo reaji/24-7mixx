@@ -176,6 +176,19 @@ html, body{
 	border-bottom: 2.5px solid #574396;
 }
 
+#myregister .li3{
+	display: none;
+}
+#myregister .li4{
+	display: none;
+}
+#myregister .li5{
+	display: none;
+}
+
+
+
+
 .myhomeback{
 	position: absolute;
 	right: 100px;
@@ -410,120 +423,80 @@ html, body{
 
 @media screen and (max-width: 850px) {
 
+#myregister{
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: inline;
+	list-style-type: none;
+	cursor: pointer;
+	-webkit-user-select: none;
+	z-index: 5;
+}
+
+#myregister li{
+	color: #AAABAD;
+	margin-right: 10px;
+	display: inline-block;
+	font-size: 10pt;
+	letter-spacing: 0.5px;
+	-webkit-user-select: none;
+	z-index: 5;
+}
+
+#myregister .li3{
+	display: inline-block;
+}
+#myregister .li4{
+	display: inline-block;
+}
+#myregister .li5{
+	display: inline-block;
+}
+
+.li3:hover{
+	border-bottom: 2.5px solid #DB195E;
+}
+
+.li4:hover{
+	border-bottom: 2.5px solid #C92F8A;
+}
+
+.li5:hover{
+	border-bottom: 2.5px solid #B8459C;
+}
+
 .mynavlogo{
 	position: relative;
-	width: 160px;
+	width: 40px;
 	z-index: 5;
-	left: -160px;
+	display: none;
+	
 }
 
 
 .mymenure{
 	display: none;
-	position: relative;
-	padding-left: 20px;
-	border-radius: 6px;
-	left:-23px;
-	width: 170px;
-	height: 420px;
-	background: #24252D;
-	box-shadow: 1px 1px 1px #000;
+	
 }
 
 .mymanucontain1{
-	position: relative;
-	left: -161px;
-	top: 90px;
-	width: 140px;
-	height: 60px;
-	background: #24252D;
-	border-radius: 4.5px;
-	box-shadow: 1px 1px 1px #000;
-	cursor: pointer;
-	-webkit-user-select: none;
-	z-index: 5;
-/*	border-bottom: 2.5px solid #DB195E;*/
+	
+	display: none;
 }
 
-
-.mymanucontain1 h3{
-	color: #AAABAD;
-	width: 140px;
-	height: 60px;
-	text-align: center;
-	padding-top:22px;
-	font-size: 12pt;
-	letter-spacing: 0.5px;
-	-webkit-user-select: none;
-	z-index: 5;
-}
-
-.mymanucontain1:hover{
-	border-bottom: 2.5px solid #DB195E;
-}
-
-.mymanucontain1:active{
-	box-shadow: none;
-}
 
 .mymanucontain2{
 	position: relative;
-	left: -161px;
-	top: 90px;
-	width: 140px;
-	height: 60px;
-	background: #24252D;
-	border-radius: 4.5px;
-	box-shadow: 1px 1px 1px #000;
-	cursor: pointer;
-	-webkit-user-select: none;
-	z-index: 5;
-/*	border-bottom: 2.5px solid #DB195E;*/
-}
-.mymanucontain2 h3{
-	color: #AAABAD;
-	width: 140px;
-	height: 60px;
-	text-align: center;
-	padding-top:22px;
-	font-size: 12pt;
-	letter-spacing: 0.5px;
-	-webkit-user-select: none;
-	z-index: 5;
+	display: none;
 }
 
-.mymanucontain2:hover{
-	border-bottom: 2.5px solid #C92F8A;
-}
 
-.mymanucontain2:active{
-	box-shadow: none;
-}
+
 
 .mymanucontain3{
 	position: relative;
-	left: -161px;
-	top: 90px;
-	width: 140px;
-	height: 60px;
-	background: #24252D;
-	border-radius: 4.5px;
-	box-shadow: 1px 1px 1px #000;
-	cursor: pointer;
-	-webkit-user-select: none;
-	z-index: 5;
-/*	border-bottom: 2.5px solid #DB195E;*/
-}
-.mymanucontain3 h3{
-	color: #AAABAD;
-	width: 140px;
-	height: 60px;
-	text-align: center;
-	padding-top:22px;
-	font-size: 12pt;
-	letter-spacing: 0.5px;
-	-webkit-user-select: none;
-	z-index: 5;
+	display: none;
 }
 
 .mymanucontain3:hover{
