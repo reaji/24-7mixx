@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en zh-Hans zh zh-Hant">
+
+<head>
+<title>24.7MIXX</title>
+<link rel="stylesheet" href="css/main.css" />
+  <meta name="author" content="Zhiyu(Reaji) Xue" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+<link href='https://fonts.googleapis.com/css?family=Raleway:400,600' rel='stylesheet' type='text/css'>
+
+<style>
+html, body{
+  overflow－x: hidden;
+  background: #191A1E;
+
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.mymanucontain2{
+  border-bottom: 2.5px solid #DB195E;
+  background: #393B44; 
+
+}
+.mymanucontain2 h3{
+  color: #CFD0D1;
+}
+
+.myhomecenter{height: 0;}
+
+#homeintro{
+  z-index: 5;
+}
+</style>
+
+
+ <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        
+        <script type="text/javascript">
+            // When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', init);
+        
+            function init() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 7,
+
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng(19.433333, -99.133333), // New York
+
+                    // How you would like to style the map. 
+                    // This is where you would paste any style found on Snazzy Maps.
+                    styles: [{"featureType":"all","elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"featureType":"all","elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"featureType":"all","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"administrative","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"administrative.country","elementType":"all","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.country","elementType":"geometry","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.country","elementType":"labels.text","stylers":[{"visibility":"simplified"}]},{"featureType":"administrative.province","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"administrative.locality","elementType":"all","stylers":[{"visibility":"simplified"},{"saturation":"-100"},{"lightness":"30"}]},{"featureType":"administrative.neighborhood","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"administrative.land_parcel","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"landscape","elementType":"all","stylers":[{"visibility":"simplified"},{"gamma":"0.00"},{"lightness":"74"}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"landscape.man_made","elementType":"all","stylers":[{"lightness":"3"}]},{"featureType":"poi","elementType":"all","stylers":[{"visibility":"off"}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"featureType":"road","elementType":"geometry","stylers":[{"visibility":"simplified"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]}]
+                };
+
+                // Get the HTML DOM element that will contain your map 
+                // We are using a div with id="map" seen below in the <body>
+                var mapElement = document.getElementById('map');
+
+                // Create the Google Map using our element and options defined above
+                var map = new google.maps.Map(mapElement, mapOptions);
+
+                // Let's also add a marker while we're at it
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(19.433333, -99.133333),
+                    map: map,
+                    title: 'Virgin Local Radio'
+                });
+            }
+        </script>
+</head>
+
+<body>
+
+
+<div id="homeintro" class="myhomecenter">
+
+  <img class="mynavlogo" src="assets/nav/logoshuffle.svg" />
+ 
+  <a href="index.html"><div class="mymanucontain1"><h3>HOME</h3></div></a>
+  <a href="design.html"><div class="mymanucontain2"><h3>DESIGN</h3></div></a>
+  <a href="help.html"><div class="mymanucontain3"><h3>HELP</h3></div></a>
+
+  <ul id="myregister">
+      <li class="li1">SIGN IN</li>  <a href="signup.html"><li class="li2">SIGN UP</li></a>
+  </ul>
+<!-- 
+<img class="myhomeback" src="assets/img/experiencmap.svg" /> -->
+
+
+<div class="mysignin">
+  <form class="form-inline">
+  
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+  </div>
+  
+  <div class="form-group">
+    <label class="sr-only" for="exampleInputPassword3">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+  </div>
+
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Sign in</button>
+  </form>
+</div>
+</div>
+
+
+<img class="mydesignAir" src="assets/img/designAir.png"></img>
+
+<div class="mapcontain">
+  <div id="map"></div>
+     <img class="myflyanime" src="assets/img/Airplane.svg" />
+     <img class="localradio" src="assets/img/Notif.png" />
+</div>
+
+
+<!--   <img class="mysample" src="assets/img/sample.png" /> -->
+
+
+
+
+
+
+<div id="mybutt">
+  <div class="mycopyright"><a href="assets/brand/logotemp.pdf"><span class="myrightfont"><span class="mycopyrightc">&#9426; &nbsp</span> 2015 Vergin Mixx</span></a></div>
+
+  <div class="mysharebuttom1">f</div> <div class="mysharebuttom2">t</div> <div class="mysharebuttom3">in</div> <div class="mysharebuttom4">tw</div>
+</div>
+
+
+
+
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+ <script src="js/bootstrap.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+ <script src="js/bootstrap.min.js"></script>
+<script type ="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,553 @@
+*{
+	font-family: 'Raleway', sans-serif;
+	
+}
+
+html, body{
+	height: 100%;
+	overflow-x: hidden;
+	margin-top: 0;
+
+}
+
+
+.responsiveImg1{
+	position: static;
+	width: 100%;
+	background: url('../assets/img/homephonead.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.mysample{
+	position: absolute;
+	top: -15px;
+	width: 1200px;
+	/*z-index: 0;*/
+	opacity: 0.2;
+}
+
+
+/*manuuuuuuuuuuuuuuu*/
+.mynavlogo{
+	width: 145px;
+	z-index: 5;
+}
+
+.mymanucontain1{
+	position: relative;
+	top: 90px;
+	width: 140px;
+	height: 60px;
+	background: #24252D;
+	border-radius: 4.5px;
+	box-shadow: 1px 1px 1px #000;
+	cursor: pointer;
+	-webkit-user-select: none;
+	z-index: 5;
+/*	border-bottom: 2.5px solid #DB195E;*/
+}
+.mymanucontain1 h3{
+	color: #AAABAD;
+	width: 140px;
+	height: 60px;
+	text-align: center;
+	padding-top:22px;
+	font-size: 12pt;
+	letter-spacing: 0.5px;
+	-webkit-user-select: none;
+	z-index: 5;
+}
+
+.mymanucontain1:hover{
+	border-bottom: 2.5px solid #DB195E;
+}
+
+.mymanucontain1:active{
+	box-shadow: none;
+}
+
+.mymanucontain2{
+	position: relative;
+	top: 90px;
+	width: 140px;
+	height: 60px;
+	background: #24252D;
+	border-radius: 4.5px;
+	box-shadow: 1px 1px 1px #000;
+	cursor: pointer;
+	-webkit-user-select: none;
+	z-index: 5;
+/*	border-bottom: 2.5px solid #DB195E;*/
+}
+.mymanucontain2 h3{
+	color: #AAABAD;
+	width: 140px;
+	height: 60px;
+	text-align: center;
+	padding-top:22px;
+	font-size: 12pt;
+	letter-spacing: 0.5px;
+	-webkit-user-select: none;
+	z-index: 5;
+}
+
+.mymanucontain2:hover{
+	border-bottom: 2.5px solid #C92F8A;
+}
+
+.mymanucontain2:active{
+	box-shadow: none;
+}
+
+.mymanucontain3{
+	position: relative;
+	top: 90px;
+	width: 140px;
+	height: 60px;
+	background: #24252D;
+	border-radius: 4.5px;
+	box-shadow: 1px 1px 1px #000;
+	cursor: pointer;
+	-webkit-user-select: none;
+	z-index: 5;
+/*	border-bottom: 2.5px solid #DB195E;*/
+}
+.mymanucontain3 h3{
+	color: #AAABAD;
+	width: 140px;
+	height: 60px;
+	text-align: center;
+	padding-top:22px;
+	font-size: 12pt;
+	letter-spacing: 0.5px;
+	-webkit-user-select: none;
+	z-index: 5;
+}
+
+.mymanucontain3:hover{
+	border-bottom: 2.5px solid #B8459C;
+}
+
+.mymanucontain3:active{
+	box-shadow: none;
+}
+
+
+.mymenure{
+	position: relative;
+	padding-left: 20px;
+	border-radius: 6px;
+	left:-23px;
+	width: 170px;
+	height: 420px;
+	background: #24252D;
+	box-shadow: 1px 1px 1px #000;
+}
+
+#myregister{
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: inline;
+	list-style-type: none;
+	cursor: pointer;
+	-webkit-user-select: none;
+	z-index: 5;
+}
+
+#myregister li{
+	color: #AAABAD;
+	margin-right: 30px;
+	display: inline-block;
+	font-size: 12pt;
+	letter-spacing: 0.5px;
+	-webkit-user-select: none;
+	z-index: 5;
+}
+
+.li1:hover{
+	border-bottom: 2.5px solid #884394;
+}
+
+.li2:hover{
+	border-bottom: 2.5px solid #574396;
+}
+
+.myhomeback{
+	position: absolute;
+	right: 100px;
+	top:40px;
+	width: 850px;
+}
+
+
+.mysignin{
+	position: absolute;
+	right: 30px;
+	top:45px;
+	max-width: 650px;
+	background: #fff;
+	padding: 10px 50px;
+ 	border-radius: 10px;
+ 	box-shadow: 1px 1px 1px #000;
+ 	display: none;
+ 	z-index: 5;
+}
+
+.myhomeback{
+	position: absolute;
+	right: 100px;
+	top:40px;
+	width: 70%;
+/*	height: 500px;*/
+}
+
+.myhomehover{
+	display: none;
+	position: absolute;
+	right: 65px;
+	top:90px;
+	width: 73%;
+/*	height: 500px;*/
+}
+
+
+.mapcontain{
+	position: relative;
+ 	margin-top: -28px;
+ 	right: 0;
+    width: 100%;
+    height: 500px;
+}
+
+@keyframes myfly {
+    from {left:-15%;}
+    to {left:115%;}
+}
+
+
+.myflyanime{
+	position: absolute;
+	z-index: 3;
+	top:200px;
+	left:-15%;
+	width: 150px;
+	-webkit-filter: blur(6px);
+    animation: myfly 10s linear 5s infinite;
+}
+
+@keyframes myradio {
+    0% {right:-300px;}
+    20% {right: 10px;}
+    75%{right: 10px;}
+    100%{right: -300px;}
+
+}
+
+.localradio{
+	position: absolute;
+	z-index: 3;
+	top:30px;
+	right: -300px;
+	width: 20%;
+	min-width: 200px;
+	animation: myradio 10s ease-in-out 5s infinite;
+}
+
+
+ #map {
+ 	position: relative;
+ 	/*top: -28px;*/
+ 	right: 0;
+    width: 100%;
+    height: 500px;
+}
+
+.myhomecenter{
+	position: relative;
+	max-width: 1200px;
+	margin: 30px auto 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 820px;
+	 
+}
+
+.mywhereintro{
+	position: relative;
+	width: 100%;
+}
+
+.mydesignAir{
+	position: relative;
+	width: 100%;
+	top:-28px;
+	z-index: 2;
+	box-shadow: 0px 3px 5px #000;
+}
+
+
+
+
+/*mybutttttttttttttttttttttttttttt*/
+#mybutt{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 20px;
+	/*margin-bottom: -3px;*/
+	background: #333;
+	border-top: .08em solid #444;
+	border-bottom: 1px solid #444 outset;
+/*	opacity: 0.95;*/
+}
+
+.mycopyright{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 160px;
+	height: 20px;
+	text-align: center;
+	border-right: .08em solid #444;
+}
+
+.mycopyright:hover{
+	background: #444;
+}
+
+.mycopyright a:hover{
+	text-decoration: none;
+}
+
+.mycopyright .myrightfont{
+	font-size: 8.5pt;
+	vertical-align: 1.5px;
+	/*line-height: 10px;*/
+	color:#999;
+}
+
+.mycopyright .myrightfont .mycopyrightc{
+	font-size: 6pt;
+	vertical-align: 1.5px;
+}
+
+.mysharebuttom1{
+	position: absolute;
+	right:0;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	border-left: .08em solid #444;
+	font-weight: 900;
+	color: #777;
+}
+
+.mysharebuttom1:hover{
+	color: white;
+	background: #3b5998;
+}
+
+.mysharebuttom2{
+	position: absolute;
+	right:20px;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	border-left: .08em solid #444;
+	font-weight: 900;
+	color: #777;
+}
+
+.mysharebuttom2:hover{
+	color: white;
+	background: #36465d;
+}
+
+.mysharebuttom3{
+	position: absolute;
+	right:40px;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	border-left: .08em solid #444;
+	font-weight: 900;
+	color: #777;
+}
+
+.mysharebuttom3:hover{
+	color: white;
+	background: #3f729b;
+}
+
+.mysharebuttom4{
+	position: absolute;
+	right:60px;
+	top: 0;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	border-left: .08em solid #444;
+	font-weight: 900;
+	color: #777;
+}
+
+.mysharebuttom4:hover{
+	color: white;
+	background: #55acee;
+}
+
+
+/*my appppppppppppppps page specials*/
+
+
+
+@media screen and (max-width: 850px) {
+
+.mynavlogo{
+	position: relative;
+	width: 160px;
+	z-index: 5;
+	left: -160px;
+}
+
+
+.mymenure{
+	display: none;
+	position: relative;
+	padding-left: 20px;
+	border-radius: 6px;
+	left:-23px;
+	width: 170px;
+	height: 420px;
+	background: #24252D;
+	box-shadow: 1px 1px 1px #000;
+}
+
+.mymanucontain1{
+	position: relative;
+	left: -161px;
+	top: 90px;
+	width: 140px;
+	height: 60px;
+	background: #24252D;
+	border-radius: 4.5px;
+	box-shadow: 1px 1px 1px #000;
+	cursor: pointer;
+	-webkit-user-select: none;
+	z-index: 5;
+/*	border-bottom: 2.5px solid #DB195E;*/
+}
+
+
+.mymanucontain1 h3{
+	color: #AAABAD;
+	width: 140px;
+	height: 60px;
+	text-align: center;
+	padding-top:22px;
+	font-size: 12pt;
+	letter-spacing: 0.5px;
+	-webkit-user-select: none;
+	z-index: 5;
+}
+
+.mymanucontain1:hover{
+	border-bottom: 2.5px solid #DB195E;
+}
+
+.mymanucontain1:active{
+	box-shadow: none;
+}
+
+.mymanucontain2{
+	position: relative;
+	left: -161px;
+	top: 90px;
+	width: 140px;
+	height: 60px;
+	background: #24252D;
+	border-radius: 4.5px;
+	box-shadow: 1px 1px 1px #000;
+	cursor: pointer;
+	-webkit-user-select: none;
+	z-index: 5;
+/*	border-bottom: 2.5px solid #DB195E;*/
+}
+.mymanucontain2 h3{
+	color: #AAABAD;
+	width: 140px;
+	height: 60px;
+	text-align: center;
+	padding-top:22px;
+	font-size: 12pt;
+	letter-spacing: 0.5px;
+	-webkit-user-select: none;
+	z-index: 5;
+}
+
+.mymanucontain2:hover{
+	border-bottom: 2.5px solid #C92F8A;
+}
+
+.mymanucontain2:active{
+	box-shadow: none;
+}
+
+.mymanucontain3{
+	position: relative;
+	left: -161px;
+	top: 90px;
+	width: 140px;
+	height: 60px;
+	background: #24252D;
+	border-radius: 4.5px;
+	box-shadow: 1px 1px 1px #000;
+	cursor: pointer;
+	-webkit-user-select: none;
+	z-index: 5;
+/*	border-bottom: 2.5px solid #DB195E;*/
+}
+.mymanucontain3 h3{
+	color: #AAABAD;
+	width: 140px;
+	height: 60px;
+	text-align: center;
+	padding-top:22px;
+	font-size: 12pt;
+	letter-spacing: 0.5px;
+	-webkit-user-select: none;
+	z-index: 5;
+}
+
+.mymanucontain3:hover{
+	border-bottom: 2.5px solid #B8459C;
+}
+
+.mymanucontain3:active{
+	box-shadow: none;
+}
+
+
+
+}
+
+@media screen and (max-width: 700px) {
+
+.myhomecenter{
+	position: relative;
+	max-width: 1200px;
+	margin: 30px auto 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	height: 400px;
+	 
+}
+
+}
