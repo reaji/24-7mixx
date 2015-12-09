@@ -423,6 +423,19 @@ html, body{
 
 @media screen and (max-width: 850px) {
 
+.myhomeback{
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
+	top:40px;
+	max-width: 850px;
+}
+
+.myhomehover{
+	display: block;
+}
+
 #myregister{
 	position: absolute;
 	left: 0;
