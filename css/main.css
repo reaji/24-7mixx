@@ -32,7 +32,7 @@ html, body{
 
 /*manuuuuuuuuuuuuuuu*/
 .mynavlogo{
-	width: 145px;
+	height:80px;
 	z-index: 5;
 }
 
@@ -227,6 +227,23 @@ html, body{
 /*	height: 500px;*/
 }
 
+.mypromotetitle{
+
+  position: absolute;
+  top:200px;
+  z-index: 5;
+  color: white;
+  width: 500px;
+  right: 100px;
+  text-align: left;
+}
+
+.mypromotetitle h1{
+  font-weight: 600;
+  font-size: 32pt;
+}
+
+
 .mydownload{
 	display: block;
 	position: absolute;
@@ -269,7 +286,25 @@ html, body{
 
 }
 
+@keyframes myradio {
+    0% {right:-300px;}
+    20% {right: 10px;}
+    75%{right: 10px;}
+    100%{right: -300px;}
+
+}
+
 .localradio{
+	position: absolute;
+	z-index: 3;
+	top:30px;
+	right: -300px;
+	width: 20%;
+	min-width: 200px;
+	animation: myradio 10s ease-in-out 5s infinite;
+}
+
+.localpromote{
 	position: absolute;
 	z-index: 3;
 	top:30px;
@@ -295,7 +330,7 @@ html, body{
 	padding-left: 20px;
 	padding-right: 20px;
 	height: 820px;
-	 
+	z-index: 10;
 }
 
 .mywhereintro{

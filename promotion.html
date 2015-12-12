@@ -18,35 +18,45 @@
 html, body{
   overflow－x: hidden;
   background: #191A1E;
-
 }
 
 a:hover{
   text-decoration: none;
 }
 
-.mymanucontain2{
+.mymanucontain1{
   border-bottom: 2.5px solid #DB195E;
-  background: #393B44; 
-
+  background: #393B44;  
 }
-.mymanucontain2 h3{
+.mymanucontain1 h3{
   color: #CFD0D1;
 }
 
-.myhomecenter{height: 0;}
-
-#homeintro{
-  z-index: 5;
+.myhomecenter{
+  height: 0;
 }
 
-.li4{
-  border-bottom: 2.5px solid #C92F8A;
+.mydesignAir{
+  
 }
+
+.li3{
+  border-bottom: 2.5px solid #DB195E;
+}
+
+.mycoveron{
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0;
+  z-index: 50;
+}
+
 </style>
 
-
- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
         
         <script type="text/javascript">
             // When the window has finished loading create our google map below
@@ -82,25 +92,26 @@ a:hover{
                 });
             }
         </script>
+
 </head>
 
 <body>
 
-
 <div id="homeintro" class="myhomecenter">
 
-  <img class="mynavlogo" src="assets/nav/logoshuffle.svg" />
+
+  <img class="mynavlogo" src="assets/img/virginlogo.svg" />
  
   <a href="index.html"><div class="mymanucontain1"><h3>HOME</h3></div></a>
   <a href="design.html"><div class="mymanucontain2"><h3>DESIGN</h3></div></a>
   <a href="help.html"><div class="mymanucontain3"><h3>HELP</h3></div></a>
 
   <ul id="myregister">
-    <a href="index.html"><li class="li3">HOME</li></a> <a href="design.html"><li class="li4">DESIGN</li></a> <a href="help.html"><li class="li5">HELP</li></a>
+     <a href="index.html"><li class="li3">HOME</li></a> <a href="design.html"><li class="li4">DESIGN</li></a> <a href="help.html"><li class="li5">HELP</li></a>
       <li class="li1">SIGN IN</li>  <a href="signup.html"><li class="li2">SIGN UP</li></a>
   </ul>
-<!-- 
-<img class="myhomeback" src="assets/img/experiencmap.svg" /> -->
+
+  
 
 
 <div class="mysignin">
@@ -127,19 +138,20 @@ a:hover{
 </div>
 
 
-<img class="mydesignAir" src="assets/img/designAir.png"></img>
+<!--   <img class="mysample" src="assets/img/sample.png" /> -->
 
-<div class="mapcontain">
+
+<div class="mydesignAir">
+<img class="mywhereintro" src="assets/img/localradio.png" />
+
+<!-- <div class="mypromotetitle"><h1>We would love to introduce our new feature: as you fly over a country or province, if you're tuned into our radio station, you'll hear music performed by local artists.</h1></div> -->
+  </div>
+  <div class="mapcontain">  
   <div id="map"></div>
+  <div class="mycoveron"></div>
      <img class="myflyanime" src="assets/img/Airplane.svg" />
      <img class="localradio" src="assets/img/Notif.png" />
 </div>
-
-<img class="mywhereintro" src="assets/img/designPhone.png"></img>
-
-
-<!--   <img class="mysample" src="assets/img/sample.png" /> -->
-
 
 
 
